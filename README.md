@@ -119,6 +119,9 @@ Waveform Analysis:
 ## Lessons Learned
 
 Structure First: Establishing a clean repository layout and common definitions (defs.vh) early simplifies later refactoring.
+
 Separation of Concerns: Isolating the register file, memory, and core logic modules improves readability and maintainability.
+
 Simulation-Driven Development: Having a minimal testbench and preloadable program memory makes iteration faster, even without synthesis.
+
 Progressive Enhancement: Starting with a functional skeleton allows step-by-step addition of hazard handling, branch logic, and more complex ISA features.
